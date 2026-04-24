@@ -1,0 +1,17 @@
+name: sebal-et-gee
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - shapely
+  - pyproj
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - earthengine-api>=0.1.400
+      - geemap>=0.32.0

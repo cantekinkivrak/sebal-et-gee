@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data files that are too large or sensitive for git
+data/outputs/*.tif
+data/outputs/*.tiff
+data/raw/
+*.gpkg-journal
+
+# Earth Engine / credentials
+.config/
+credentials.json
+ee_token.json
+
+# Keep the outputs folder but not its contents
+!data/outputs/.gitkeep
