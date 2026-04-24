@@ -57,7 +57,7 @@ sebal-et-gee/
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/sebal-et-gee.git
+git clone https://github.com/<cantekinkivrak>/sebal-et-gee.git
 cd sebal-et-gee
 
 # Option 1: pip
