@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "sebal-et-gee: SEBAL-style daily evapotranspiration from Landsat 8/9 and ERA5-Land on Google Earth Engine"
+abstract: >-
+  A modular, open-source implementation of the SEBAL/METRIC surface-energy-balance
+  method for daily actual evapotranspiration on Google Earth Engine. It combines
+  Landsat 8/9 thermal and optical imagery with ERA5-Land forcing, and implements
+  Tasumi (2008) broadband albedo, Bastiaanssen (1998) soil heat flux and the full
+  CIMEC iterative sensible-heat solution with Monin-Obukhov stability correction.
+  Developed and validated for the Thrace region of Türkiye against eight
+  agrometeorological stations.
+authors:
+  - family-names: "Kıvrak"
+    given-names: "Cantekin"
+    orcid: "https://orcid.org/0000-0002-6221-2469"
+    affiliation: "Atatürk Soil, Water and Agricultural Meteorology Research Institute, General Directorate of Agricultural Research and Policies (TAGEM), Ministry of Agriculture and Forestry, Kırklareli, Türkiye"
+repository-code: "https://github.com/cantekinkivrak/sebal-et-gee"
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-03"
+keywords:
+  - evapotranspiration
+  - surface energy balance
+  - SEBAL
+  - METRIC
+  - Google Earth Engine
+  - Landsat
+  - ERA5-Land
+  - irrigation
+  - Thrace
+  - Türkiye
