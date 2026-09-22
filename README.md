@@ -145,9 +145,9 @@ et_daily, ef = compute_daily_et(LE, rn_minus_g, rn_24h, era5.select('T_air_K'))
 For an end-to-end walkthrough with visualization, see
 `notebooks/pipeline_example.ipynb`.
 
-## Validation (Thrace, 2023-07-20 ± 7 days)
+##  Example output (Thrace, 2023-07-20 ± 7 days)
 
-Station-level daily ET values aligned with regional hydrology:
+Daily ET extracted at eight climate-station locations across Thrace:
 
 | Station     | ET (mm/day) | Land cover context         |
 |-------------|-------------|----------------------------|
@@ -161,7 +161,10 @@ Station-level daily ET values aligned with regional hydrology:
 | Edirne      | 1.4         | Post-harvest stubble       |
 
 The spatial pattern reproduces expected contrasts: irrigated delta > mixed forest >
-rainfed cropland > urban > post-harvest stubble.
+rainfed cropland > urban > post-harvest stubble. These values are a plausibility
+check against land cover, not a validation against measured ET, and no error
+statistics are reported yet. A quantitative comparison with eddy covariance ET
+is planned.
 
 ## Methodological notes
 
